@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="口罩复合材料">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#115e59"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <circle cx="700" cy="90" r="190" fill="#ffffff" fill-opacity=".06"/>
+  <circle cx="90" cy="520" r="150" fill="#ffffff" fill-opacity=".05"/>
+  
+      <rect x="300" y="215" width="200" height="120" rx="14" fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="8"/>
+      <circle cx="320" cy="275" r="26" fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="8"/>
+      <path d="M300 235 h200 M300 315 h200" stroke="#fff" stroke-opacity=".35" stroke-width="6"/>
+      <text x="400" y="556" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Arial, sans-serif" font-size="16" fill="#ffffff" fill-opacity=".45" letter-spacing="2">占位图 · PLACEHOLDER</text>
+</svg>
