@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<!-- 多域名跳转 -->
+<script>
+(function () {
+  var host = location.hostname;
+  var APEX = "minghuaruiyi.com", WWW = "www.minghuaruiyi.com", EN = "en.minghuaruiyi.com";
+  var EN_REDIR = "";
+  if (EN_REDIR) {
+    if (host === EN) {
+      location.replace(EN_REDIR + location.pathname + location.search + location.hash);
+      return;
+    }
+  }
+  if (host === APEX) {
+    location.replace("https://" + WWW + location.pathname + location.search + location.hash);
+    return;
+  }
+  if (host === WWW && location.pathname.indexOf("/en/") === 0) {
+    location.replace("https://" + EN + location.pathname.replace(/^\/en/, "") + location.search + location.hash);
+  }
+})();
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us — Minghua Ruiyi</title>
+    <meta name="description" content="明华睿熠立足北京，综合贸易公司，工业品全品类均可承接采购委托，重点品类含口罩与防护用品、断路器、铸造件、HDPE 塑料制品与起重机械，为企业客户提供批量供货与供应链配套服务。">
+    <meta name="keywords" content="明华睿熠,无纺布,断路器,铸造件,HDPE塑料制品,起重机械,北京供应链公司,工业品采购,批量供货,China sourcing agent">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About Us — Minghua Ruiyi">
+    <meta property="og:description" content="明华睿熠立足北京，综合贸易公司，工业品全品类均可承接采购委托，重点品类含口罩与防护用品、断路器、铸造件、HDPE 塑料制品与起重机械，为企业客户提供批量供货与供应链配套服务。">
+    <meta property="og:site_name" content="Minghua Ruiyi">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="canonical" href="https://www.minghuaruiyi.com/about.html">
+    <link rel="stylesheet" href="css/style.css">
+    <meta property="og:image" content="https://www.minghuaruiyi.com/images/og-cover.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="明华睿熠办公与仓储">
+    <meta name="twitter:image" content="https://www.minghuaruiyi.com/images/og-cover.png">
+    <meta name="twitter:image:alt" content="明华睿熠办公与仓储">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://www.minghuaruiyi.com/#org",
+            "name": "北京明华睿熠科技有限公司",
+            "legalName": "北京明华睿熠科技有限公司",
+            "alternateName": "明华睿熠",
+            "url": "https://www.minghuaruiyi.com/",
+            "logo": "https://www.minghuaruiyi.com/images/og-cover.png",
+            "image": "https://www.minghuaruiyi.com/images/og-cover.png",
+            "description": "综合贸易与工业品全品类采购服务商，重点供货口罩用无纺布、断路器、铸造件、HDPE 塑料制品与起重机械，提供批量供货、定制与拼柜发运服务。",
+            "telephone": "+8613901210451",
+            "email": "hellenshi131@sina.com",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "北京市通州区张家湾镇北大化村116号9幢一层C033",
+                "addressLocality": "通州区",
+                "addressRegion": "北京市",
+                "addressCountry": "CN"
+            },
+            "areaServed": [
+                "CN",
+                "SA",
+                "AE",
+                "QA",
+                "KW",
+                "OM",
+                "BH"
+            ],
+            "knowsLanguage": [
+                "zh-CN",
+                "en"
+            ],
+            "knowsAbout": [
+                "口罩用非织造布",
+                "口罩用无纺布",
+                "N95 / FFP3 成品口罩",
+                "口罩生产设备",
+                "断路器",
+                "低压电气元件",
+                "铸造件",
+                "铸铁件",
+                "碳钢铸件",
+                "铝合金铸件",
+                "HDPE 塑料制品",
+                "起重机械"
+            ],
+            "contactPoint": [
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "+8613901210451",
+                    "email": "hellenshi131@sina.com",
+                    "contactType": "sales",
+                    "areaServed": [
+                        "CN",
+                        "SA",
+                        "AE"
+                    ],
+                    "availableLanguage": [
+                        "zh-CN",
+                        "en"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "AboutPage",
+            "url": "https://www.minghuaruiyi.com/about.html",
+            "name": "明华睿熠办公与仓储",
+            "isPartOf": {
+                "@id": "https://www.minghuaruiyi.com/#org"
+            },
+            "inLanguage": "zh-CN"
+        }
+    ]
+}
+    </script>
+    <link rel="alternate" hreflang="zh-CN" href="https://www.minghuaruiyi.com/about.html">
+    <link rel="alternate" hreflang="en" href="https://en.minghuaruiyi.com/about.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.minghuaruiyi.com/">
+</head>
+<body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">北京明华睿熠科技有限公司</a>
+            <a href="https://en.minghuaruiyi.com/" class="lang-switch" lang="en" hreflang="en">EN</a>
+            <nav class="nav">
+                <a href="index.html">首页</a>
+                <a href="about.html" class="active">关于我们</a>
+                <a href="product.html">产品中心</a>
+                <a href="service.html">供应链服务</a>
+                <a href="news.html">新闻动态</a>
+                <a href="contact.html">联系我们</a>
+                <a href="privacy.html">隐私政策</a>
+                <a href="terms.html">服务条款</a>
+                <a href="faq.html">常见问题</a>
+            </nav>
+            <a href="contact.html" class="btn-header">立即询价</a>
+            <button class="hamburger" aria-label="菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <a href="index.html">首页</a>
+        <a href="about.html">关于我们</a>
+        <a href="product.html">产品中心</a>
+        <a href="service.html">供应链服务</a>
+        <a href="news.html">新闻动态</a>
+        <a href="contact.html">联系我们</a>
+        <a href="privacy.html">隐私政策</a>
+        <a href="terms.html">服务条款</a>
+        <a href="faq.html">常见问题</a>
+        <a href="contact.html" class="btn-mobile">立即询价</a>
+    </div>
+
+    <section id="main" class="page-header">
+        <h1>关于我们｜了解明华睿熠</h1>
+    </section>
+
+    <section class="section about-intro">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h2>公司简介</h2>
+                <p>北京明华睿熠科技有限公司，立足于北京，是一家专注工业品商贸的综合贸易公司。公司以口罩与防护用品（口罩用无纺布与熔喷材料、N95 / FFP3 医用与民用成品口罩、防护服与隔离衣、口罩机与熔喷生产线）、断路器、铸造件、HDPE 塑料制品与起重机械为重点长期供货品类，同时承接工业品全品类的采购与供应链委托——机电、建材、五金工具、包装、劳保、日用工业品等，均可寻源、议价、验货与发运。</p>
+                <p>公司以工业品贸易为主，承接零散订货、大批量供货与长期框架合作，报价透明、交期按实际确认。</p>
+                <p>团队熟悉工业品采购的规格体系、贸易条款与验货标准，负责货源筛选、订单跟单与到货跟进。</p>
+            </div>
+            <div class="about-img real-photo"><img src="images/real/meltblown/meltblown-warehouse.jpg" alt="仓储实景：白色熔喷布卷材成垛码放于塑料托盘，卷材有防潮缠绕包装" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='images/about-warehouse.svg'"></div>
+        </div>
+    </section>
+
+    <section class="section values">
+        <div class="container">
+            <h2 class="section-title">愿景·使命·价值观</h2>
+            <div class="card-grid card-grid-2">
+                <div class="card value-card">
+                    <h3>企业愿景</h3>
+                    <p>让企业采购少花沟通成本。</p>
+                </div>
+                <div class="card value-card">
+                    <h3>企业使命</h3>
+                    <p>按规格与数量把货寻到、验好、拼柜发走。</p>
+                </div>
+                <div class="card value-card">
+                    <h3>经营理念｜诚信务实</h3>
+                    <p>坚持透明沟通，如实反馈货源、交期，不夸大承诺。</p>
+                </div>
+                <div class="card value-card">
+                    <h3>经营理念｜客户至上</h3>
+                    <p>以客户采购实际需求为核心，灵活适配不同合作模式。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section timeline-section">
+        <div class="container">
+            <h2 class="section-title">发展历程</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-year">起步期</span>
+                    <span class="timeline-text">公司成立，正式开展工业品商贸贸易业务</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-year">渠道期</span>
+                    <span class="timeline-text">拓展上游货源渠道，锁定无纺布、电气元件与铸造产线</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-year">至今</span>
+                    <span class="timeline-text">品类扩充至 HDPE 塑料制品与起重机械，持续深耕 B2B 贸易服务</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section capabilities">
+        <div class="container">
+            <h2 class="section-title">企业综合实力</h2>
+            <div class="capability-list">
+                <div class="capability-item">
+                    <h4>1. 货源整合能力</h4>
+                    <p>对接多方上游渠道，多品类货品供给选择。</p>
+                </div>
+                <div class="capability-item">
+                    <h4>2. 灵活采购模式</h4>
+                    <p>支持试单、批量采购、长期框架合作多种模式。</p>
+                </div>
+                <div class="capability-item">
+                    <h4>3. 订单全流程跟进</h4>
+                    <p>从询价、下单、备货直到收货，专人对接跟进。</p>
+                </div>
+                <div class="capability-item">
+                    <h4>4. 本地化商务对接</h4>
+                    <p>位于北京，支持线上沟通，可预约线下商务洽谈。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section company-info">
+        <div class="container">
+            <h2 class="section-title">企业基础信息</h2>
+            <div class="info-table">
+                <p><strong>公司全称：</strong>北京明华睿熠科技有限公司</p>
+                <p><strong>注册所在地：</strong>北京市通州区</p>
+                <p><strong>重点品类：</strong>口罩与防护用品（无纺布・N95/FFP3 成品口罩・防护服与隔离衣・口罩机） / 断路器与低压元件 / 铸造件（铁 / 钢 / 不锈钢 / 铝） / HDPE 塑料制品 / 起重机械与索具</p>
+                <p><strong>承接范围：</strong>工业品全品类采购与供应链委托（重点品类之外同样接单）</p>
+                <p><strong>服务模式：</strong>批量供货、样品试采、长期框架合作、按图定制与多品类拼柜</p>
+                <p><strong>贸易条款：</strong>支持 EXW / FOB / CIF / DDP；装箱单、箱唛等装运单据随单提供，材质证明与第三方验货可按需安排</p>
+                <p><strong>商务联络：</strong>电话 139 0121 0451｜邮箱 hellenshi131@sina.com｜WhatsApp +86 139 0121 0451</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <div class="footer-logo">明华睿熠</div>
+                <p>专注优质商贸供应链服务</p>
+            </div>
+            <div class="footer-mid">
+                <h4>快速导航</h4>
+                <a href="index.html">首页</a>
+                <a href="about.html">关于我们</a>
+                <a href="product.html">产品中心</a>
+                <a href="service.html">供应链服务</a>
+                <a href="contact.html">联系我们</a>
+                <a href="privacy.html">隐私政策</a>
+                <a href="terms.html">服务条款</a>
+                <a href="faq.html">常见问题</a>
+                <a href="catalog.html">产品目录</a>
+            </div>
+            <div class="footer-right">
+                <h4>商务询价</h4>
+                <p>电话：<a href="tel:+8613901210451">139 0121 0451</a></p>
+                <p>邮箱：<a href="mailto:hellenshi131@sina.com">hellenshi131@sina.com</a></p>
+                <p>办公地址：北京市通州区张家湾镇北大化村116号9幢一层C033</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 北京明华睿熠科技有限公司 版权所有</p>
+        </div>
+    </footer>
+
+    <script src="js/main.min.js" defer></script>
+    <!-- WhatsApp 悬浮按钮 -->
+    <a class="wa-float" href="https://wa.me/8613901210451?text=Hello%2C%20I%27m%20interested%20in%20your%20products." target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 32 32" width="30" height="30" fill="#fff"><path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.4L3 29l6.8-1.8A13 13 0 1 0 16 3zm0 23.4c-2 0-4-.6-5.6-1.6l-.4-.2-3.9 1 1.1-3.8-.3-.4A10.4 10.4 0 1 1 16 26.4zm5.8-7.7c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.6 8.6 0 0 1-4.2-3.7c-.3-.5.3-.5.9-1.6a.9.9 0 0 0 0-.9l-1-2.3c-.3-.7-.6-.6-.8-.6h-.7a1.4 1.4 0 0 0-1 .5 4.2 4.2 0 0 0-1.3 3.1 7.3 7.3 0 0 0 1.5 3.8 16.7 16.7 0 0 0 6.4 5.7 21 21 0 0 0 2.1.8 5 5 0 0 0 2.3.1 3.8 3.8 0 0 0 2.5-1.8 3.1 3.1 0 0 0 .2-1.8c-.1-.1-.3-.2-.5-.3z"/></svg>
+    </a>
+</body>
+</html>

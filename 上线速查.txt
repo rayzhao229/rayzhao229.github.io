@@ -1,0 +1,88 @@
+明华睿熠官网 · 上线速查（2026-11-17 更新）
+================================================
+
+【文件位置】
+/Users/zhaomingrui/Desktop/明华睿熠网站
+
+【当前状态】
+✅ 文案：中文站 + 英文站全部重写，无占位文案残留
+✅ 图片：24 个图片位全部有图（中文 images/、英文 images/en/），无裂图、无空白
+✅ 分类：5 大品类（无纺布 / 断路器 / 铸造不锈钢件 / HDPE / 起重机械）
+✅ SEO：og:image 4 张、twitter 卡片、apple-touch-icon、JSON-LD 结构化数据、
+        sitemap 带 lastmod + 中英 hreflang 互指
+✅ 无障碍：label↔input 关联、aria-label、跳转正文链接、键盘焦点可见、
+          prefers-reduced-motion、跳过动效时直接显示
+✅ 性能：图片全 SVG（1KB 级）、loading=lazy、全站资源 ~250KB
+✅ 移动端：390px 实测通过（汉堡菜单、单列卡片、筛选按钮自动换行）
+✅ 校验：12 页 0 裂图 / 0 隐藏元素 / 0 横向溢出 / h1 唯一 / 控制台 0 错误
+⚠️ 待填：域名、GA ID、表单 endpoint、ICP 备案号
+⚠️ 待换：24 张占位图 → 实物图
+⚠️ 未做：GitHub 仓库 / Pages / 域名绑定（需要你的账号）
+
+【一键填充所有占位符】
+./fill_contact.sh yourdomain.com \
+  --email sales@yourdomain.com \
+  --phone 8613901210451 \
+  --wa 8613901210451 \
+  --address "中文地址" --address-en "English address" \
+  --icp "京ICP备12345678号" \
+  --ga "G-XXXXXXXXXX" \
+  --form "https://formspree.io/f/xxxxxxxx"
+（不传参数则逐项交互询问；已实测可一次填干净）
+
+【建仓库并上传】
+cd ~/Desktop/明华睿熠网站
+git init && git add -A && git commit -m "init"
+git remote add origin https://github.com/你的用户名/你的用户名.github.io.git
+git push -u origin main
+
+【开 Pages】
+仓库 Settings → Pages → Source: main / root → Save
+等 1-3 分钟访问 https://你的用户名.github.io
+
+【新增内容（2026-11-17 晚）】
+• 404 / 隐私政策 / 服务条款 / FAQ —— 中英各一套，共 8 个新页面
+• catalog.html —— 打印版产品目录，下载 downloads/products.csv（Excel 直开）
+  和 downloads/products.json；页脚与产品页都有入口
+• 询盘表单新增：产品品类（下拉）/ 预计采购数量 / 目的国家
+  → 产品页点"询价"会自动带入品类并预填需求模板
+• 首页新增"用事实说话"佐证区（只写可核实事实，规模类数字留白不编）
+• _headers —— 缓存策略 + 安全响应头 + CSP（GitHub Pages 部署后自动生效）
+• js/main.min.js —— 生产环境已引用压缩版
+
+【占位图 → 实物图 清单】
+中文 images/ ：prod-nonwoven, prod-nonwoven-geo, prod-breaker, prod-casting,
+              prod-hdpe, prod-lifting, prod-custom, about-warehouse,
+              service-sourcing, service-logistics, news-1, news-2
+英文 images/en/：同名 12 个
+→ 保持文件名不变，把 .svg 换成 .jpg/.webp，同时把 HTML 里 src 后缀改掉
+→ 建议单张 < 200KB
+→ 占位图右下角有"占位图 PLACEHOLDER"水印提醒，别忘了去掉
+
+【新增一个品类（可选）】
+python3 tools/add_category.py \
+  --slug cat6 --name-zh "品类名" --name-en "Category Name" \
+  --spec-zh "规格：..." --spec-en "Spec: ..." \
+  --desc-zh "描述..." --desc-en "Description..."
+→ 自动同步中英产品页 + 筛选按钮 + 占位图；加 --index 可同时进首页
+
+【常用工具】
+python3 tools/final_check.py            # 跑全部校验（结构/无障碍/SVG/回归）
+node tools/regression.js http://127.0.0.1:8920 /tmp/reg   # 全站回归截图
+python3 tools/check_html.py             # HTML 结构 + 内链
+python3 tools/check_a11y_perf.py        # 无障碍 + 性能
+python3 build_images.py                 # 重新生成中文占位图
+python3 build_images_en.py              # 重新生成英文占位图
+python3 build_og.py                     # 重新生成 og 分享图
+
+【绑域名】
+DNS 加 4 条 A 记录：185.199.108.153 / .109.153 / .110.153 / .111.153
+CNAME: www → 你的用户名.github.io
+改 CNAME 文件为 yourdomain.com 后重新 push
+GitHub Pages → Custom domain 填域名 → 勾 Enforce HTTPS
+
+【重要提醒】
+- GitHub Pages 是静态站，跑不了 PHP/后台
+- 仓库公开 = 源码公开，API key、买家名单别放进去
+- build_site.py 是初版生成器，已加安全阀（检测到 JSON-LD 会跳过），
+  改文案请直接编辑 HTML，别再跑它

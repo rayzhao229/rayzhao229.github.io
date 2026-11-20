@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<!-- 多域名跳转 -->
+<script>
+(function () {
+  var host = location.hostname;
+  var APEX = "minghuaruiyi.com", WWW = "www.minghuaruiyi.com", EN = "en.minghuaruiyi.com";
+  var EN_REDIR = "";
+  if (EN_REDIR) {
+    if (host === EN) {
+      location.replace(EN_REDIR + location.pathname + location.search + location.hash);
+      return;
+    }
+  }
+  if (host === APEX) {
+    location.replace("https://" + WWW + location.pathname + location.search + location.hash);
+    return;
+  }
+  if (host === WWW && location.pathname.indexOf("/en/") === 0) {
+    location.replace("https://" + EN + location.pathname.replace(/^\/en/, "") + location.search + location.hash);
+  }
+})();
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>产品目录：口罩无纺布・断路器・铸造件・HDPE・起重机械 | 明华睿熠</title>
+<meta name="description" content="明华睿熠产品目录：口罩用无纺布、断路器、铸造件、HDPE 塑料制品、起重机械的规格范围与主要应用，可直接打印或下载 CSV。">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.minghuaruiyi.com/catalog.html">
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+        font-family: "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif;
+        color: #1a1a1a; background: #f5f7fa; padding: 30px 20px; line-height: 1.7;
+    }
+    .sheet {
+        max-width: 980px; margin: 0 auto; background: #fff; padding: 44px 48px;
+        border-radius: 6px; box-shadow: 0 2px 20px rgba(0,0,0,.06);
+    }
+    h1 { font-size: 26px; color: #132d4f; margin-bottom: 6px; }
+    .sub { color: #666; font-size: 14px; margin-bottom: 26px; }
+    .meta {
+        display: flex; flex-wrap: wrap; gap: 8px 28px; font-size: 13px; color: #444;
+        border-top: 1px solid #e3e8ef; border-bottom: 1px solid #e3e8ef;
+        padding: 12px 0; margin-bottom: 24px;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+    th {
+        background: #132d4f; color: #fff; text-align: left; padding: 11px 14px;
+        font-weight: 600; font-size: 13px;
+    }
+    td { border-bottom: 1px solid #e3e8ef; padding: 13px 14px; vertical-align: top; }
+    tr:nth-child(even) td { background: #fafbfd; }
+    .en { color: #7b8794; font-size: 12px; }
+    .note { margin-top: 22px; font-size: 12.5px; color: #666; }
+    .actions { max-width: 980px; margin: 0 auto 18px; display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn {
+        display: inline-block; padding: 9px 18px; border-radius: 5px; font-size: 14px;
+        text-decoration: none; border: 1px solid #132d4f; color: #132d4f; background: #fff;
+    }
+    .btn.primary { background: #132d4f; color: #fff; }
+    @media print {
+        body { background: #fff; padding: 0; }
+        .sheet { box-shadow: none; padding: 20px; max-width: 100%; }
+        .actions { display: none; }
+        thead { display: table-header-group; }
+        tr { page-break-inside: avoid; }
+    }
+</style>
+</head>
+<body>
+    <div class="actions">
+        <a class="btn primary" href="downloads/products.csv">下载 CSV（Excel 可打开）</a>
+        <a class="btn" href="downloads/products.json">下载 JSON</a>
+        <button class="btn" onclick="window.print()">打印 / 存为 PDF</button>
+        <a class="btn" href="index.html">返回官网</a>
+    </div>
+    <div class="sheet">
+        <h1>明华睿熠 · 产品目录</h1>
+        <p class="sub">Product Catalogue — Beijing Minghua Ruiyi Technology Co., Ltd.</p>
+        <div class="meta">
+            <span><strong>电话 / WhatsApp：</strong>+86 139 0121 0451</span>
+            <span><strong>邮箱：</strong>hellenshi131@sina.com</span>
+            <span><strong>贸易条款：</strong>EXW / FOB / CIF / DDP</span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:22%">产品类别 / Category</th>
+                    <th style="width:38%">规格范围 / Specification</th>
+                    <th style="width:40%">主要应用 / Applications</th>
+                </tr>
+            </thead>
+            <tbody>
+            
+            
+                        <tr>
+                <td><strong>铸造件（铁 / 钢 / 不锈钢 / 铝）</strong><br><span class="en">Castings — Cast Iron, Carbon Steel, Stainless Steel, Aluminium</span></td>
+                <td>材质：铸铁 / 碳钢 / 不锈钢（304、316L、316Ti 等）/ 铝合金；工艺：砂型铸造 / 精密铸造；标准：按图<br><span class="en">Material: cast iron / carbon steel / stainless steel (304, 316L, 316Ti) / aluminium; Process: sand casting / investment casting; Made to drawing</span></td>
+                <td>管件、法兰、阀体、泵壳、非标结构件（铸铁 / 碳钢 / 不锈钢 / 铝合金）<br><span class="en">Fittings, flanges, valve bodies, pump casings, custom structural parts (cast iron / carbon steel / stainless steel / aluminium)</span></td>
+            </tr>
+            <tr>
+                <td><strong>口罩原材料卷材（非织造布 / 复合材料 / 熔喷布）</strong><br><span class="en">Mask Material Rolls (Non-Woven, Composite &amp; Meltblown)</span></td>
+                <td>材质：PP 非织造布 / 复合材料 / PP 熔喷布；克重与幅宽：按需定制；规格以报价单为准<br><span class="en">Material: PP non-woven / composite / PP meltblown; weight and width made to order; specification per quotation</span></td>
+                <td>口罩面层与体层材料、成型与耳带等配套、空气净化与工业过滤<br><span class="en">Mask outer and body layers, forming and ear-loop materials, air purification and industrial filtration</span></td>
+            </tr>
+            <tr>
+                <td><strong>N95 / FFP3 成品口罩</strong><br><span class="en">N95 / FFP3 Finished Masks</span></td>
+                <td>防护等级：N95 / FFP3 等；款式与包装：按需定制；合规文件以报价单所列清单为准<br><span class="en">Protection level: N95 / FFP3 and others; style and packing: made to order; compliance documents per the quotation list</span></td>
+                <td>医疗机构、工厂自用、零售与出口分销<br><span class="en">Healthcare, factory use, retail and export distribution</span></td>
+            </tr>
+            <tr>
+                <td><strong>防护服与隔离衣（PPE 防护服装）</strong><br><span class="en">Protective Coveralls &amp; Isolation Gowns</span></td>
+                <td>材质：PP 纺粘 / SMS / 无纺布等按用途选；款式：防护服、隔离衣、手术衣等；规格以报价单为准<br><span class="en">Material: PP spunbond / SMS / non-woven selected by use; styles: coveralls, isolation gowns, surgical gowns; specification per quotation</span></td>
+                <td>医疗机构、工厂车间、实验室与保洁防护<br><span class="en">Healthcare, factory floors, laboratories and cleaning operations</span></td>
+            </tr>
+            <tr>
+                <td><strong>口罩生产设备（口罩机 / 熔喷生产线）</strong><br><span class="en">Mask Making Machinery &amp; Meltblown Lines</span></td>
+                <td>机型：平面口罩机 / 折叠口罩机 / 熔喷生产线；产能与自动化程度：按需选型；交期与调试以工厂确认排期为准<br><span class="en">Machine type: flat mask, folded mask or meltblown line; output and automation: configured to your requirement; lead time and commissioning per the factory schedule</span></td>
+                <td>本地建厂、产能扩张、产线更新<br><span class="en">Local production setup, capacity expansion, line upgrade</span></td>
+            </tr>
+            <tr>
+                <td><strong>断路器与低压电气元件</strong><br><span class="en">Circuit Breakers &amp; Low-Voltage Components</span></td>
+                <td>极数：1P–4P；额定电流与分断能力：多档可选；具体型号以报价单为准<br><span class="en">Poles: 1P–4P; rated current and breaking capacity: multiple ratings available; exact model per quotation</span></td>
+                <td>小型断路器、剩余电流动作保护器、隔离开关、浪涌保护器与配电附件；框架断路器（ACB）等高等级产品可按项目配套<br><span class="en">MCBs, RCCBs, isolators, surge protection devices and distribution accessories; higher-class products such as air circuit breakers (ACB) can be supplied against specific projects</span></td>
+            </tr>
+            <tr>
+                <td><strong>HDPE 高密度聚乙烯制品</strong><br><span class="en">HDPE Plastic Products</span></td>
+                <td>规格：管材 / 注塑件 / 容器托盘，口径按需定制；常用颜色：黑 / 蓝 / 白<br><span class="en">Pipe, moulded parts, tanks and pallets; diameters made to order; common colours: black / blue / white</span></td>
+                <td>给排水、化工防腐、仓储周转<br><span class="en">Water and drainage, chemical handling, warehousing</span></td>
+            </tr>
+            <tr>
+                <td><strong>起重机械与索具</strong><br><span class="en">Lifting Machinery &amp; Rigging</span></td>
+                <td>起重量：多档可选；电压：220 V / 380 V / 24 V；检验文件：按需提供，具体以报价单为准；型号以报价单为准<br><span class="en">Capacity: multiple ratings available; Voltage: 220 V / 380 V / 24 V; Test documents on request; per quotation; model per quotation</span></td>
+                <td>工厂车间、工程安装、吊装作业<br><span class="en">Factory floors, site installation, lifting operations</span></td>
+            </tr>
+            </tbody>
+        </table>
+        <p class="note">
+            注：以上规格区间为常见可供范围，具体规格、材质、数量与交期以正式报价单为准；定制产品需在确认图纸或样品后安排排产。
+            <br>Note: specification ranges indicate commonly available options. Final specification, material, quantity and lead time are stated in the formal quotation. Custom items require drawing or sample confirmation before scheduling.
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<!-- 多域名跳转 -->
+<script>
+(function () {
+  var host = location.hostname;
+  var APEX = "minghuaruiyi.com", WWW = "www.minghuaruiyi.com", EN = "en.minghuaruiyi.com";
+  var EN_REDIR = "";
+  if (EN_REDIR) {
+    if (host === EN) {
+      location.replace(EN_REDIR + location.pathname + location.search + location.hash);
+      return;
+    }
+  }
+  if (host === APEX) {
+    location.replace("https://" + WWW + location.pathname + location.search + location.hash);
+    return;
+  }
+  if (host === WWW && location.pathname.indexOf("/en/") === 0) {
+    location.replace("https://" + EN + location.pathname.replace(/^\/en/, "") + location.search + location.hash);
+  }
+})();
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品中心 — 无纺布・断路器・铸造件・HDPE・起重机械 | 明华睿熠</title>
+    <meta name="description" content="综合贸易公司承接工业品全品类采购委托，重点品类含口罩用无纺布、断路器、铸造件、HDPE 塑料制品与起重机械。">
+    <meta name="keywords" content="防护服,隔离衣,手术衣,PPE防护服,一次性防护服,N95口罩,FFP3口罩,成品口罩,KN95口罩,口罩机,口罩生产设备,熔喷生产线,口罩材料,口罩用无纺布,口罩用非织造布,断路器,小型断路器,铸造件,铸铁件,铸铁管件,碳钢铸件,铝合金铸件,不锈钢法兰,HDPE管材,塑料托盘,起重葫芦,钢丝绳,明华睿熠,工业品供应链">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Products — Cast Iron Fittings &amp; Industrial Hardware | Minghua Ruiyi">
+    <meta property="og:description" content="综合贸易公司承接工业品全品类采购委托，重点品类含口罩用无纺布、断路器、铸造件、HDPE 塑料制品与起重机械。">
+    <meta property="og:site_name" content="Minghua Ruiyi">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="canonical" href="https://www.minghuaruiyi.com/product.html">
+    <link rel="stylesheet" href="css/style.css">
+    <meta property="og:image" content="https://www.minghuaruiyi.com/images/og-product.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="明华睿熠主营产品中心">
+    <meta name="twitter:image" content="https://www.minghuaruiyi.com/images/og-product.png">
+    <meta name="twitter:image:alt" content="明华睿熠主营产品中心">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://www.minghuaruiyi.com/#org",
+            "name": "北京明华睿熠科技有限公司",
+            "legalName": "北京明华睿熠科技有限公司",
+            "alternateName": "明华睿熠",
+            "url": "https://www.minghuaruiyi.com/",
+            "logo": "https://www.minghuaruiyi.com/images/og-cover.png",
+            "image": "https://www.minghuaruiyi.com/images/og-cover.png",
+            "description": "综合贸易与工业品全品类采购服务商，重点供货口罩用无纺布、断路器、铸造件、HDPE 塑料制品与起重机械，提供批量供货、定制与拼柜发运服务。",
+            "telephone": "+8613901210451",
+            "email": "hellenshi131@sina.com",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "北京市通州区张家湾镇北大化村116号9幢一层C033",
+                "addressLocality": "通州区",
+                "addressRegion": "北京市",
+                "addressCountry": "CN"
+            },
+            "areaServed": [
+                "CN",
+                "SA",
+                "AE",
+                "QA",
+                "KW",
+                "OM",
+                "BH"
+            ],
+            "knowsLanguage": [
+                "zh-CN",
+                "en"
+            ],
+            "knowsAbout": [
+                "口罩用非织造布",
+                "口罩用无纺布",
+                "N95 / FFP3 成品口罩",
+                "防护服与隔离衣",
+                "口罩生产设备",
+                "断路器",
+                "低压电气元件",
+                "铸造件",
+                "铸铁件",
+                "碳钢铸件",
+                "铝合金铸件",
+                "HDPE 塑料制品",
+                "起重机械"
+            ],
+            "contactPoint": [
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "+8613901210451",
+                    "email": "hellenshi131@sina.com",
+                    "contactType": "sales",
+                    "areaServed": [
+                        "CN",
+                        "SA",
+                        "AE"
+                    ],
+                    "availableLanguage": [
+                        "zh-CN",
+                        "en"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "CollectionPage",
+            "url": "https://www.minghuaruiyi.com/product.html",
+            "name": "明华睿熠主营产品中心",
+            "isPartOf": {
+                "@id": "https://www.minghuaruiyi.com/#org"
+            },
+            "inLanguage": "zh-CN"
+        }
+    ]
+}
+    </script>
+    <link rel="alternate" hreflang="zh-CN" href="https://www.minghuaruiyi.com/product.html">
+    <link rel="alternate" hreflang="en" href="https://en.minghuaruiyi.com/product.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.minghuaruiyi.com/">
+</head>
+<body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">北京明华睿熠科技有限公司</a>
+            <a href="https://en.minghuaruiyi.com/" class="lang-switch" lang="en" hreflang="en">EN</a>
+            <nav class="nav">
+                <a href="index.html">首页</a>
+                <a href="about.html">关于我们</a>
+                <a href="product.html" class="active">产品中心</a>
+                <a href="service.html">供应链服务</a>
+                <a href="news.html">新闻动态</a>
+                <a href="contact.html">联系我们</a>
+                <a href="privacy.html">隐私政策</a>
+                <a href="terms.html">服务条款</a>
+                <a href="faq.html">常见问题</a>
+            </nav>
+            <a href="contact.html" class="btn-header">立即询价</a>
+            <button class="hamburger" aria-label="菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <a href="index.html">首页</a>
+        <a href="about.html">关于我们</a>
+        <a href="product.html">产品中心</a>
+        <a href="service.html">供应链服务</a>
+        <a href="news.html">新闻动态</a>
+        <a href="contact.html">联系我们</a>
+        <a href="privacy.html">隐私政策</a>
+        <a href="terms.html">服务条款</a>
+        <a href="faq.html">常见问题</a>
+        <a href="contact.html" class="btn-mobile">立即询价</a>
+    </div>
+
+    <section id="main" class="page-header">
+        <h1>产品中心｜五大主营品类</h1>
+    </section>
+
+    <section class="section product-section">
+        <div class="container">
+            <p class="section-desc">本页是我们长期稳定供货的<b>重点产品线</b>；其他工业品（机电、建材、五金工具、包装、劳保等）也可承接采购委托，发需求即可寻源报价。</p>
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="cat3">铸造件</button>
+                <button class="filter-btn" data-filter="cat1">口罩 · 防护用品与设备</button>
+                <button class="filter-btn" data-filter="cat2">断路器</button>
+                <button class="filter-btn" data-filter="cat4">HDPE 塑料</button>
+                <button class="filter-btn" data-filter="cat5">起重机械</button>
+            </div>
+
+            <div class="product-grid" id="productGrid">
+                <div class="product-card" data-category="cat3">
+                    <div class="product-image real-photo"><img src="images/real/casting/casting-heavy-duty-plate.jpg" alt="大型带筋齿形耐磨铸件实拍，抛丸表面处理，销孔已机加工" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='images/prod-casting.svg'"></div>
+                    <div class="product-detail">
+                        <h3>铸造件（铁 / 钢 / 不锈钢 / 铝）</h3>
+                        <p class="product-spec">材质：铸铁 / 碳钢 / 不锈钢（304、316L、316Ti 等）/ 铝合金｜工艺：砂型铸造 / 精密铸造｜标准：按图</p>
+                        <p class="product-desc">铸铁、碳钢、不锈钢与铝合金四类材质的管件、法兰、阀体、泵壳及非标结构件，可按需提供材质证明，第三方检测亦可代为安排，支持小批量试制到批量供货。</p>
+                        <p class="product-desc photo-cap">实拍：大型带筋齿形耐磨铸件，抛丸表面处理，销孔等配合面已机加工。</p>
+                        <a href="contact.html?cat=casting" class="btn btn-primary btn-sm">询价</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="cat1">
+                    <div class="product-image real-photo"><img src="images/real/meltblown/meltblown-rolls.jpg" alt="口罩原材料实拍：白色熔喷布卷材成垛码放于塑料托盘，卷身有手写规格标记" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='images/prod-nonwoven-composite.svg'"></div>
+                    <div class="product-detail">
+                        <h3>口罩原材料卷材（非织造布 / 复合材料 / 熔喷布）</h3>
+                        <p class="product-spec">材质：PP 非织造布 / 复合材料 / PP 熔喷布；克重与幅宽：按需定制；规格以报价单为准</p>
+                        <p class="product-desc">口罩生产所需材料一次配套：非织造布（面层与体层）、复合材料与成型 / 耳带等配套基材，以及熔喷布卷材（空气过滤材料），按口罩型式与目标克重幅宽匹配供货。卷长、批量、配色与随附检测文件以报价单为准。</p>
+                        <p class="product-desc photo-cap">实拍：白色熔喷布卷材成垛码放于塑料托盘，卷身有手写规格标记；其余材料按图纸与报价清单供货。</p>
+                        <a href="contact.html?cat=mask-material" class="btn btn-primary btn-sm">询价</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="cat1">
+                    <div class="product-image real-photo"><img src="images/real/mask/N95.jpg" alt="N95 口罩样品实拍：两只白色平板式 KN95 口罩，分别独立热封在磨砂透明塑袋中，表面印有 KN95 标识与批次码，耳带为白色圆绳" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='images/prod-mask.svg'"></div>
+                    <div class="product-detail">
+                        <h3>N95 / FFP3 成品口罩</h3>
+                        <p class="product-spec">防护等级：N95 / FFP3 等｜口径：医用与民用均可供｜款式与包装：按需定制｜合规文件以报价单所列清单为准</p>
+                        <p class="product-desc">成品口罩批量供货，医用与民用两种口径都做过，平口、折叠、带阀等款式可做，支持 OEM 贴牌与出口包装；医用或民用对应的检测与注册文件按工厂实际可提供的清单随报价列明。</p>
+                        <p class="product-desc photo-cap">实拍：白色平板式 KN95 口罩样品，独立热封塑袋包装，印有 KN95 标识与批次码；是否带阀、医用/民用口径、检测与注册文件以报价单为准。</p>
+                        <a href="contact.html?cat=mask" class="btn btn-primary btn-sm">询价</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="cat1">
+                    <div class="product-image real-photo"><img src="images/real/ppe/ppe-coverall.jpg" alt="一次性连体防护服：白色带帽连体防护服，蓝色热封条，袖口与脚踝收紧" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='images/prod-ppe.svg'"></div>
+                    <div class="product-detail">
+                        <h3>防护服与隔离衣（PPE 防护服装）</h3>
+                        <p class="product-spec">材质：PP 纺粘 / SMS / 无纺布等按用途选｜款式：防护服、隔离衣、手术衣等｜规格以报价单为准</p>
+                        <p class="product-desc">一次性防护服装批量供货，可按使用场景选择材质与覆膜结构（防渗透等级、克重与尺寸以报价单为准），支持出口包装与贴牌；配套的检测文件随报价列明。</p>
+                        <p class="product-desc photo-cap">白色连体式一次性防护服（蓝色热封条，袖口与脚踝收紧）；材质、阻隔等级、尺码与检测文件以报价单为准。</p>
+                        <a href="contact.html?cat=ppe" class="btn btn-primary btn-sm">询价</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="cat1">
+                    <div class="product-image real-photo"><img src="images/real/mask-machine/KN95.jpg" alt="口罩生产线实拍：KN95 口罩成型焊接工位，白色无纺布经压辊与超声焊接形成 KN95 罩体，配气动调压表与 FESTO 气缸" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='images/prod-mask-machine.svg'"></div>
+                    <div class="product-detail">
+                        <h3>口罩生产设备（口罩机 / 熔喷生产线）</h3>
+                        <p class="product-spec">机型：平面口罩机 / 折叠口罩机 / 熔喷生产线｜产能与自动化程度：按需选型｜交期与调试以工厂确认排期为准</p>
+                        <p class="product-desc">为客户在本地建厂提供设备选型与供货：整线配置、产能匹配、发货与安装调试支持；整机与关键部件清单、随机备件与培训安排随报价逐项说明。</p>
+                        <p class="product-desc photo-cap">实拍：KN95 口罩成型焊接工位，白色无纺布经压辊与超声焊接成型，配气动调压表与气缸；产线型号、产能与供货范围以报价单为准。</p>
+                        <a href="contact.html?cat=mask-machine" class="btn btn-primary btn-sm">询价</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="cat2">
+                    <div class="product-image real-photo"><img src="images/real/breaker/breaker-acb.jpg" alt="抽出式框架断路器（ACB）实拍：深灰色本体、顶部接线端子与排气罩、面板分合闸按钮与电子脱扣器" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='images/prod-breaker.svg'"></div>
+                    <div class="product-detail">
+                        <h3>断路器与低压电气元件</h3>
+                        <p class="product-spec">极数：1P–4P｜额定电流与分断能力：多档可选｜具体型号以报价单为准</p>
+                        <p class="product-desc">小型断路器、剩余电流动作保护器、隔离开关、浪涌保护器与配电附件；框架断路器（ACB）等高等级产品可按项目配套，用于成套配电柜、终端配电与工业控制箱。</p>
+                        <p class="product-desc photo-cap">实拍：抽出式框架断路器（ACB），配电子脱扣器与分合闸按钮；图中为项目实拍，具体型号、额定值与供货范围以报价单为准。</p>
+                        <div class="spec-illus"><img src="images/prod-breaker.svg" alt="小型断路器（MCB）示意图" decoding="async"><span>小型断路器（MCB）示意图</span></div>
+                        <a href="contact.html?cat=breaker" class="btn btn-primary btn-sm">询价</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="cat4">
+                    <div class="product-gallery single">
+                        <img src="images/real/hdpe/hdpe-pipe-fittings.jpg" alt="HDPE 管材与管件：黑管配弯头、三通与阀门" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='images/prod-hdpe.svg'">
+                    </div>
+                    <div class="product-detail">
+                        <h3>HDPE 高密度聚乙烯制品</h3>
+                        <p class="product-spec">规格：管材 / 注塑件 / 容器托盘，口径按需定制｜常用颜色：黑 / 蓝 / 白</p>
+                        <p class="product-desc">给排水管材管件、储水容器、周转箱托盘与工业注塑件，耐化学腐蚀、抗冲击，适合化工、市政与仓储场景长期使用。</p>
+                        <p class="product-desc photo-cap">HDPE 管材与管件（弯头、三通、阀门等），另有临时道路板、排水沟盖板、储水罐与周转托盘；规格、颜色与供货范围以报价单为准。</p>
+                        <a href="contact.html?cat=hdpe" class="btn btn-primary btn-sm">询价</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="cat5">
+                    <div class="product-image real-photo"><img src="images/real/lifting/lifting-accessories.jpg" alt="起重机械用重型配件实拍：锻铸件成垛码放于车间地面，旁置便携式硬度检测仪" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='images/prod-lifting.svg'"></div>
+                    <div class="product-detail">
+                        <h3>起重机械与索具</h3>
+                        <p class="product-spec">起重量：多档可选｜电压：220 V / 380 V / 24 V｜随附出厂检验报告｜型号以报价单为准</p>
+                        <p class="product-desc">手拉葫芦、电动葫芦、电动小车、吊钩与钢丝绳、卸扣、旋转环等索具配件，适配工厂车间与工程安装现场作业。</p>
+                        <p class="product-desc photo-cap">实拍：起重机械用重型锻铸配件，车间成垛备货并配便携式硬度检测仪做来料检验；具体规格以报价单为准。</p>
+                        <a href="contact.html?cat=lifting" class="btn btn-primary btn-sm">询价</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-footer">
+                <p class="inquiry-tip">找不到需要的货品？把品类、规格、数量与使用场景发给我们，我们帮你匹配货源并给出报价与交期。</p>
+        <p style="text-align:center; margin-top:10px;"><a href="catalog.html" class="btn btn-outline btn-sm">下载产品目录（CSV / PDF）</a></p>
+                <a href="contact.html" class="btn btn-primary">提交采购需求</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <div class="footer-logo">明华睿熠</div>
+                <p>专注优质商贸供应链服务</p>
+            </div>
+            <div class="footer-mid">
+                <h4>快速导航</h4>
+                <a href="index.html">首页</a>
+                <a href="about.html">关于我们</a>
+                <a href="product.html">产品中心</a>
+                <a href="service.html">供应链服务</a>
+                <a href="contact.html">联系我们</a>
+                <a href="privacy.html">隐私政策</a>
+                <a href="terms.html">服务条款</a>
+                <a href="faq.html">常见问题</a>
+                <a href="catalog.html">产品目录</a>
+            </div>
+            <div class="footer-right">
+                <h4>商务询价</h4>
+                <p>电话：<a href="tel:+8613901210451">139 0121 0451</a></p>
+                <p>邮箱：<a href="mailto:hellenshi131@sina.com">hellenshi131@sina.com</a></p>
+                <p>办公地址：北京市通州区张家湾镇北大化村116号9幢一层C033</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 北京明华睿熠科技有限公司 版权所有</p>
+        </div>
+    </footer>
+
+    <script src="js/main.min.js" defer></script>
+    <!-- WhatsApp 悬浮按钮 -->
+    <a class="wa-float" href="https://wa.me/8613901210451?text=Hello%2C%20I%27m%20interested%20in%20your%20products." target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 32 32" width="30" height="30" fill="#fff"><path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.4L3 29l6.8-1.8A13 13 0 1 0 16 3zm0 23.4c-2 0-4-.6-5.6-1.6l-.4-.2-3.9 1 1.1-3.8-.3-.4A10.4 10.4 0 1 1 16 26.4zm5.8-7.7c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.6 8.6 0 0 1-4.2-3.7c-.3-.5.3-.5.9-1.6a.9.9 0 0 0 0-.9l-1-2.3c-.3-.7-.6-.6-.8-.6h-.7a1.4 1.4 0 0 0-1 .5 4.2 4.2 0 0 0-1.3 3.1 7.3 7.3 0 0 0 1.5 3.8 16.7 16.7 0 0 0 6.4 5.7 21 21 0 0 0 2.1.8 5 5 0 0 0 2.3.1 3.8 3.8 0 0 0 2.5-1.8 3.1 3.1 0 0 0 .2-1.8c-.1-.1-.3-.2-.5-.3z"/></svg>
+    </a>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://www.minghuaruiyi.com/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.minghuaruiyi.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.minghuaruiyi.com/"/>
+    <lastmod>2026-11-19</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.minghuaruiyi.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.minghuaruiyi.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.minghuaruiyi.com/about.html"/>
+    <lastmod>2026-11-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.minghuaruiyi.com/product.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.minghuaruiyi.com/product.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.minghuaruiyi.com/product.html"/>
+    <lastmod>2026-11-19</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.minghuaruiyi.com/service.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.minghuaruiyi.com/service.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.minghuaruiyi.com/service.html"/>
+    <lastmod>2026-11-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.minghuaruiyi.com/catalog.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.minghuaruiyi.com/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.minghuaruiyi.com/catalog.html"/>
+    <lastmod>2026-11-19</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.minghuaruiyi.com/news.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.minghuaruiyi.com/news.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.minghuaruiyi.com/news.html"/>
+    <lastmod>2026-11-19</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.minghuaruiyi.com/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.minghuaruiyi.com/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.minghuaruiyi.com/faq.html"/>
+    <lastmod>2026-11-19</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.minghuaruiyi.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.minghuaruiyi.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.minghuaruiyi.com/contact.html"/>
+    <lastmod>2026-11-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.minghuaruiyi.com/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.minghuaruiyi.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.minghuaruiyi.com/privacy.html"/>
+    <lastmod>2026-11-19</lastmod><changefreq>weekly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.minghuaruiyi.com/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.minghuaruiyi.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.minghuaruiyi.com/terms.html"/>
+    <lastmod>2026-11-19</lastmod><changefreq>weekly</changefreq><priority>0.3</priority></url>
+</urlset>
